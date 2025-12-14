@@ -50,7 +50,7 @@ git push -u origin main
 -->
 
 ---
-
+# 独立开发者，承接各类AI应用开发，微信：agimeme
 ## 为什么需要 DataPilot？
 
 传统 BI 工具面临的困境：
@@ -662,7 +662,7 @@ MIT License
 ## Star History
 
 如果这个项目对你有帮助，请给我们一个 ⭐️
-## 承接各类AI应用开发，微信：agimeme
+
 ---
 
 <p align="center">
