@@ -1,0 +1,7 @@
+# Remove local env
+.env
+data/
+node_modules/
+frontend/
+venv/
+__pycache__/
