@@ -662,7 +662,7 @@ MIT License
 ## Star History
 
 如果这个项目对你有帮助，请给我们一个 ⭐️
-
+## 承接各类AI应用开发，微信：agimeme
 ---
 
 <p align="center">
