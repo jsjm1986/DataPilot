@@ -437,7 +437,29 @@ E2B_API_KEY=your-e2b-key
 # 安全配置
 JWT_SECRET_KEY=your-secret-key
 ```
+### CLI 命令行工具
 
+DataPilot 提供独立的命令行查询工具，无需启动 Web 服务即可进行自然语言数据查询。
+
+```bash
+# 单次查询
+python -m src.datapilot.cli "查询上个月销售额最高的前10个产品" --db default
+
+# 交互式模式
+python -m src.datapilot.cli --interactive --db default
+
+# 显示生成的 SQL
+python -m src.datapilot.cli "查询用户数" --db default --show-sql
+
+# 导出结果到文件
+python -m src.datapilot.cli "月度销售趋势" --db default --output result.csv
+
+# 列出可用数据库
+python -m src.datapilot.cli --list-db
+
+# 查看帮助
+python -m src.datapilot.cli --help
+```
 ---
 
 ## 使用示例
